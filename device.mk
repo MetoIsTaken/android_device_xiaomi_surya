@@ -29,6 +29,9 @@ $(call inherit-product, device/xiaomi/surya/parts/parts.mk)
 # MiuiCamera 
 $(call inherit-product-if-exists, vendor/xiaomi/miuicamera/config.mk)
 
+# Signing
+-include vendor/pixelage-priv/keys/keys.mk
+
 # ANT+
 PRODUCT_PACKAGES += \
     AntHalService-Soong \
