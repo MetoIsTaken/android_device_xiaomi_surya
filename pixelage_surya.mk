@@ -25,3 +25,5 @@ BUILD_FINGERPRINT := POCO/surya_global/surya:12/RKQ1.211019.001/V14.0.2.0.SJGMIX
 BUILD_DESC := surya_global-user 12 RKQ1.211019.001 V14.0.2.0.SJGMIXM release-keys
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+WITH_GMS := TRUE
